@@ -1,0 +1,37 @@
+{
+name: "bao-rin/mypackage",
+description: "mypackage"
+keywords: [
+mypackage
+],
+authors: [
+{
+name: "bao-rin",
+email: "baonv.23.student@fit.tdc.edu.vn"
+}
+],
+license: "MIT",
+require: {
+},
+require-dev: {
+},
+autoload: {
+classmap: [
+database
+],
+psr-4: {
+Bao-rin\\Mypackage\\: "src/"
+}
+},
+autoload-dev: {
+classmap: [
+
+]
+},
+scripts: {
+},
+minimum-stability: "dev",
+config: {
+preferred-install: "dist"
+}
+}
